@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This website include most of the HTML tags.">
+  <title>HTML Learn</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1 style="background-color: Green;">Heading 1</h1>
+  </header>
+  <main>
+  <!--........................Semantics,Structural,Formatting Tags...........................-->
+  <h2>Heading 2</h2>
+  <h3 style="color: red;">Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
+  <p>Paragraph     Without Spaces</p>
+  <pre>Paragraph     with Spaces</pre>
+  <code>
+    #include iostream.h
+    conio.h 
+    voidmain()</conio>
+  </code>
+  <details>
+    <summary>Who created this?</summary>
+    <p>Sanskar Created this!!!</p>
+  </details>
+  <u>Underline</u>
+  <b>Bold.</b>
+  <s>Strike</s>
+  <strong>Strong is same as bold but,text to speech focus more on it.</strong>
+  <br><!-- Wrong Bad way cuz it is not according to convention -->
+  <br/><!-- for next line no need to close -->
+  <hr/><!-- to insert a rular/line into page -->
+  <big>Big text</big>
+  <small>Small Text</small>
+  <p>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></p>
+  <p>C<sup>6</sup>H<sup>12</sup>O<sup>6</sup></p>
+  <em>Emphasis</em>
+
+  <address>
+    <pre>
+      Contact Information
+      <a href="mailto:sanskar786g@gmail.com" target="_blank">sanskar786g@gmail.com</a>
+    </pre>
+  </address>
+  
+<!--.........................Block/InLine Elements...............................-->
+
+  <div class="class2" style="background-color: yellow;">
+    Block Element, To group Elements/tags
+  </div>
+  <div class="class2" style="background-color: orange;">
+    Block element consume full width
+  </div>
+  <span style="background-color:indigo;">
+    InLine Element
+  </span>
+  <div style="background-color: orange; display: inline;">
+    Div converted into inline element
+  </div>
+
+
+  <!--.................Linking tags..............-->
+  <a href="www.google.com">Absolute Link</a>
+  <a href="/Hello.html">Relative Link </a>
+  <a href="/Hello.html"><img src="img\tree.jpg" alt="Internal Linking" width="100">Clickable image</a>
+
+  <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="External Linking">
+  <img src="C:\Users\asus\Desktop\HTML Learn\img\tree.jpg" alt="Wrong Bad Way of Linking" height="100>
+  <img src="/img/tree.jpg" alt="Wrong Bad Way of Changing size- only change one thing" height="100" width="50">
+  <img src="/img/tree.jpg" alt="Internal Linking" height="100">
+  <img src="/img/tree.jpg" alt="Internal Linking" width="100">
+
+
+  <video width="560" height="315 " src="/Video/SilverJubliee.mp4" controls></video>
+  <video width="20%" width="10%" height="315 " " src="/Video/SilverJubliee.mp4" controls></video>
+  <figure><!--used for diagrams/pictures..-->
+    <figcaption>Audio file</figcaption>
+  <audio controls src="/music/song.mp3" typ>
+    <source src="/music/song.mp3" type="audio/mpeg" >
+  </audio>
+  <figcaption>Audio file</figcaption>
+  </figure>
+
+  <iframe width="560" height="315 " src="https://en.wikipedia.org/wiki/India" frameborder="20"></iframe>
+  <iframe width="560" height="315 " src="https://sanskaarz.blogspot.com" frameborder="20"></iframe>
+  <iframe width="1120" height="315 " src="/Hello.html" frameborder="20"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybk63zjfSL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+  </iframe>
+
+
+
+
+    
+  
+
+<!--.................................Table.......................................-->
+  <!--...........Extend vertically- rowspan............Extend horizontally- colspan............-->
+  <table border="10">
+    <caption>Table</caption>
+    <thead>
+      <tr>
+        <th colspan="2">Column1&2 </th>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </th><!--right to left-->
+        <th>Column3</th>
+        <th>helllll</th>
+      </tr>
+    </thead>
+  <!--.................if u want to use rowspan in thead,remove <thead> tag.....................-->
+    <tbody>
+      <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td rowspan="2">14</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3" align="center" style="color: red;">Total:-</td>
+        <td style="background-color: yellow;">14</td>
+      </tr>
+  <!--............if u want to extend a coloumn from tbody to tfoot,remove <tfoot> tag............-->
+    </tfoot>
+  </table>
+
+
+
+  <!--..................................Form.......................................-->
+
+   <form action="/action.php"> <!--To submit to server -->
+    <fieldset>
+      <legend>HTML FORM</legend>
+      <input type="text" placeholder="Enter name">
+      <input type="password" placeholder="Enter Your Password">
+
+      <input type="checkbox" name="Class1" id="102" value="Money">Money
+      <input type="checkbox" name="Class1" id="102" value="Travel">Travel
+      <input type="checkbox" name="Class1" id="102" value="Sukuuun">Sukuuun
+
+      <input type="color">
+      <label for="datepicker">Choose Date:</label>
+      <input type="date" id="datepicker">
+      <input type="week" name="" id="">
+      <input type="month">
+      <input type="email">
+      <label for="uploadfile">Choose files</label>
+      <input type="file" id="uploadfile">
+      <input type="hidden" name="105" id="105">
+      <label for="uploadimage">Upload</label>
+      <input type="image" src="img/uploadimage.png" width="20px" height="20px" alt="upload image" id="uploadimage"><!--not working-->
+      <input type="number">
+      <input type="password">
+
+      <label for="radio1">Money</label>
+      <input type="radio" value="Sanskar" name="Class1" id="radio1">
+      <label for="radio2">Fame</label>
+      <input type="radio" value="Sanskar" name="Class1" id="radio2">
+      <label for="radio3">Power</label>
+      <input type="radio" value="Sanskar" name="Class1" id="radio3">
+
+      <input type="range" name="" id="">
+      <input type="search" name="" id="">
+      <input type="tel">
+      <input type="time" name="" id="">
+      <input type="url" name="" id="">
+      <label for="103">Whom you choose</label>
+      <select name="Class101" id="103">
+        <optgroup label="Select a language">
+          <option value="GF">GF</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Money">Money</option>
+        </optgroup>
+      </select>
+      <textarea name="Feedback Data" id="102" cols="20" rows="5" placeholder="give your Feedback here"></textarea>
+
+      <input type="button" value="Button">
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit Form">
+
+
+    <!--.......By Label's, Text becomes clickable.......-->
+    <!--.......By Label's screen readers describe inputs to users more precisely.......-->
+      <!--inaccessible-->
+      <p>Enter your name: <input id="name" type="text" size="30" /></p>
+
+      <!--implicit-->
+      <p>
+        <label>Enter your name: <input id="name" type="text" size="30" /></label>
+      </p>
+
+      <!-- explicit.......................................................BEST Method-->
+      <p>
+        <label for="name">Enter your name: </label>
+        <input id="name" type="text" size="30" />
+      </p>
+    </fieldset>
+  </form>
+
+
+
+
+
+
+  <abbr>Abbreviation</abbr>
+  <bdo>Override The Current Text Direction</bdo>
+  <blockquote>Content From Another Source</blockquote>
+  <cite>Title Of The Work, Book, Website</cite>
+  <q>Inline Quotation</q>
+  <ins>Text Inserted</ins>
+  <del>Text Deleted From The Document</del>
+  <dfn>Term Defined Within A Sentence/Phrase</dfn>
+  <kbd>Keyboard Input</kbd>
+  <pre>Preformatted Text</pre>
+  <samp>Sample Output Of A Computer Program</samp>
+  <var>Variable Name Used In Mathematical Or Programming Context</var>
+  Single Line Break
+  <div>Division</div>
+  <a href="#">Anchor Tag For A Link</a>
+  <base href="https://www.example.com/">Base Url For All Relative Url Within The Document</base>
+  <img src="https://www.example.com/image.png" alt="Image">
+  <area href="#" shape="rect" coords="10,10,100,100">Area Of An Image Map
+  <map name="mymap">
+    <area href="#" shape="rect" coords="10,10,100,100">
+  </map>
+  <param name="movie" value="movie.mpg">Parameter For An <Object> Element
+  <object data="movie.mpg" type="video/mpeg">Embed An Object</object>
+  <ul>
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+  </ul>
+  <ol>
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+  </ol>
+  <dl>
+    <dt>Term 1</dt>
+    <dd>Definition 1</dd>
+    <dt>Term 2</dt>
+    <dd>Definition 2</dd>
+  </dl>
+  </main>
+  <footer></footer>
+</body>
+</html>
+
+
+
+
+<!--................................Emmet Abbrivaitions...................................-->
+table>section 
+<table>
+  <section></section>
+</table>
+
+table>caption+thead+tbody+tfoot
+<table>
+  <caption></caption>
+  <thead></thead>
+  <tbody></tbody>
+  <tfoot></tfoot>
+</table>
+
+tbody>tr*2
+<tbody>
+  <tr></tr>
+  <tr></tr>
+</tbody>
+
+tbody>(tr>td*3)*2
+<tbody>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+
+
+p{this is paragraph}
+<p>this is paragraph</p>
+
+p#para1
+<p id="para1"></p>
+p.para
+<p class="para"></p>
+p.para.paragraph.class1.multipleclass
+<p class="para paragraph class1 multipleclass"></p>
+
+
+a
+<a href=""></a>
+img
+<img src="" alt="">
