@@ -1,2 +1,2 @@
 # LearnHTML
-This website include almost all the HTML tags.
+index.html file of this repo includes almost all the HTML tags.
